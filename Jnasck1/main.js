@@ -1,7 +1,6 @@
 // Creo un prompt, dove l'utente deve inserire la parola o la frase da esaminare""
 let chosenWord = prompt("Inserisci la parola da esaminare").toLowerCase().replaceAll(" ", "");
 
-console.log(chosenWord)
 // Creo una funziona dove inverte la singola parola specificata nel prompt
 
 function wordPalindroma (chosenWord){
