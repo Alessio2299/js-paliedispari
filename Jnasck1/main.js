@@ -3,7 +3,7 @@ let chosenWord = prompt("Inserisci la parola da esaminare").toLowerCase().replac
 
 // Creo una funziona dove inverte la singola parola specificata nel prompt
 
-function wordPalindroma (chosenWord){
+function wordPalidroma (chosenWord){
 
   let word = "";
 
@@ -14,12 +14,12 @@ function wordPalindroma (chosenWord){
   }
   return word
 }
-// Uso la funzione wordPalindroma creata in precedenza
-let palindroma = wordPalindroma(chosenWord);
+// Uso la funzione wordPalidroma creata in precedenza
+let palidroma = wordPalidroma(chosenWord);
 
 // Creo una condizione
-if ( palindroma == chosenWord){
-  alert("La parola che hai inserito è palindroma")
+if ( palidroma == chosenWord){
+  alert("La parola che hai inserito è palidroma")
 } else{
-  alert("La parola che hai inserito non è palindroma")
+  alert("La parola che hai inserito non è palidroma")
 }
